@@ -6,6 +6,15 @@ A control surface script for the Korg nanoKONTROL Studio MIDI controller in Bitw
 
 This script provides comprehensive control over transport, tracks, devices and more, _with full LED feedback_.
 
+BTW, for Linux users:
+
+If you want to autoconnect the device to a virtual MIDI port each time it
+connects on Bluetooth, which enables you to use it via Bluetooth in Bitwig, you
+can find [my solution on
+AUR](https://aur.archlinux.org/packages/korg-nanokontrol-studio-autoconnect) -
+it's easy to just manually copy the files into appropriate places if you don't
+use Arch.
+
 ## Features
 
 - **2 Modes**: _Mixer_ and _Device_ modes allow you to switch between using the sliders and pots
