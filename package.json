@@ -1,0 +1,31 @@
+{
+  "name": "nanokontrolstudio-v2",
+  "version": "2.1.5",
+  "description": "Control surface scripts for Bitwig, for Korg nanoKONTROL Studio",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "rm -rf build",
+    "prebuild": "npm run clean"
+  },
+  "author": "Andrej Radović",
+  "license": "AGPL3",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "prettier": "^3.0.0",
+    "rollup": "^4.52.5",
+    "tslib": "^2.8.1",
+    "typed-bitwig-api": "^25.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  }
+}
