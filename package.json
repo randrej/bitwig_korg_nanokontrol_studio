@@ -1,6 +1,6 @@
 {
   "name": "nanokontrolstudio-v2",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Control surface scripts for Bitwig, for Korg nanoKONTROL Studio",
   "type": "module",
   "scripts": {
